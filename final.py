@@ -16,4 +16,13 @@ title3 = input('Введите заголовок 3 заметки: ')
 
 list_info = [username, content, status, created_date, edit_date, [title1, title2, title3]]
 
-print('Информация об заметке: ', list_info)
+print()
+print('Информация об заметке: ')
+print("Имя пользователя: "+ list_info[0])
+print("Содержание заметки: "+list_info[1])
+print("Статус заметки: "+list_info[2])
+print("Дата создания: "+list_info[3][:-5])
+print("Дата изменения: "+list_info[4][:-5])
+print("Заголовок 1: "+list_info[5][0])
+print("Заголовок 2: "+list_info[5][1])
+print("Заголовок 3: "+list_info[5][2])
